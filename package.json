@@ -1,0 +1,23 @@
+{
+    "name":           "be.WostynThomas.Room",
+     "displayName":    "Room of Thomas",
+     "version":        "0.0.1",
+     "unity":          "2018.1",
+     "description":    "This is a room",
+     "keywords":       ["Script","Tool"],
+     "dependencies":{  },
+     "relatedPackages":{  }, 
+      "samples": [
+    {
+      "displayName": "Demo of the utensils.",
+      "description": "Check what utensils is in the package.",
+      "path": "Samples/"
+    }
+  ],
+     "author" : {
+           "name":"Wostyn Thomas",
+           "mail":"lovepatato@gmail.com",
+           "url":"https://youtu.be/5XRiGi1eofQ"
+       },
+           "category": "Script"
+   }
