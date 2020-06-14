@@ -1,10 +1,11 @@
-{
-  "name": "be.wostynthomas.room",
-  "displayName": "room of thomas",
-  "version": "0.0.1",
-  "unity": "2018.1",
-  "description": "this is a room",
-  "keywords": ["Script","Tool"],
-  "category": "Script",
-  "dependencies":{}
+{   "name": "be.thomas.dinner",   
+"displayName": "Room of Thomas",   
+"version": "0.0.1",   
+"unity": "2018.1",   
+"description": "this is a room",   
+"keywords": ["Script","Tool","3D"],   
+"category": "Script",   
+"dependencies":	{   
+				"be.eloistree.magicdoorsroompattern":"0.0.1"   
+				} 
 }
