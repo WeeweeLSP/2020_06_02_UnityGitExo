@@ -198,7 +198,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 717403004}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1.738, z: 0.18}
+  m_LocalPosition: {x: 0, y: 1.738, z: 0.205}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -325,11 +325,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Room_thomas
       objectReference: {fileID: 0}
-    - target: {fileID: 3909640386312965915, guid: 3b9eb11a8bff3b043a157cc32df7e8d3,
-        type: 3}
-      propertyPath: m_Materials.Array.data[1]
-      value: 
-      objectReference: {fileID: 2100000, guid: 9f19fe69fb1330149bdd66a272a90abc, type: 2}
     - target: {fileID: 7238716413740429892, guid: 3b9eb11a8bff3b043a157cc32df7e8d3,
         type: 3}
       propertyPath: m_LocalPosition.x

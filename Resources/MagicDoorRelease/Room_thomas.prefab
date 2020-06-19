@@ -387,7 +387,7 @@ GameObject:
   - component: {fileID: 1000552837}
   - component: {fileID: 1000552836}
   m_Layer: 0
-  m_Name: s_itsalloverbutthecrying
+  m_Name: s_music
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -417,7 +417,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 59890a0001feab84d8d129ea2dba2d53, type: 3}
+  m_audioClip: {fileID: 8300000, guid: a5e491e6be58d434494bb8e2943319c9, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -428,9 +428,9 @@ AudioSource:
   Priority: 128
   DopplerLevel: 1
   MinDistance: 0.1
-  MaxDistance: 2.6
+  MaxDistance: 2.8
   Pan2D: 0
-  rolloffMode: 1
+  rolloffMode: 2
   BypassEffects: 0
   BypassListenerEffects: 0
   BypassReverbZones: 0
@@ -438,23 +438,59 @@ AudioSource:
     serializedVersion: 2
     m_Curve:
     - serializedVersion: 3
-      time: 0
+      time: 0.037037037
       value: 1
-      inSlope: 0
-      outSlope: 0
+      inSlope: -27.010798
+      outSlope: -27.010798
       tangentMode: 0
       weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 0.074074075
+      value: 0.5
+      inSlope: -6.7526994
+      outSlope: -6.7526994
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 0.14814815
+      value: 0.25
+      inSlope: -1.6881748
+      outSlope: -1.6881748
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 0.2962963
+      value: 0.125
+      inSlope: -0.4220437
+      outSlope: -0.4220437
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 0.5925926
+      value: 0.0625
+      inSlope: -0.10551093
+      outSlope: -0.10551093
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
     - serializedVersion: 3
       time: 1
       value: 0
-      inSlope: 0
-      outSlope: 0
+      inSlope: -0.03705183
+      outSlope: -0.03705183
       tangentMode: 0
       weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
+      inWeight: 0
+      outWeight: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
@@ -1257,6 +1293,11 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[2]
       value: 
       objectReference: {fileID: 2100000, guid: 5c2166b7a4a98ff418f91617ca493a6f, type: 2}
+    - target: {fileID: -1504981713932161579, guid: c944b79ea1ee3b042940df98dfb23ef8,
+        type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: 9f19fe69fb1330149bdd66a272a90abc, type: 2}
     - target: {fileID: -927199367670048503, guid: c944b79ea1ee3b042940df98dfb23ef8,
         type: 3}
       propertyPath: m_Name
