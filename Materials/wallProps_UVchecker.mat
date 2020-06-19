@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Props_radio
+  m_Name: wallProps_UVchecker
   m_Shader: {fileID: 4800000, guid: bea8b0b871367a94bb13c763156167ed, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
@@ -20,7 +20,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _Albedo:
-        m_Texture: {fileID: 2800000, guid: 60100da1a93a356438b2a0fa5868c481, type: 3}
+        m_Texture: {fileID: 2800000, guid: 15902e14483761e40becac6fccabb21c, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BumpMap:
@@ -44,7 +44,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Lightmap:
-        m_Texture: {fileID: 2800000, guid: 982b58fcc1229934e8cb9be1f49346cd, type: 3}
+        m_Texture: {fileID: 2800000, guid: e8f7e10251c6c76499d7ab73510b177e, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
