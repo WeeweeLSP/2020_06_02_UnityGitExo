@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Wall_wall
-  m_Shader: {fileID: 4800000, guid: bea8b0b871367a94bb13c763156167ed, type: 3}
+  m_Shader: {fileID: 4800000, guid: d9ae82600a4f94349a2e5a468c7be8ca, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -43,7 +43,15 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _Glowmap:
+        m_Texture: {fileID: 2800000, guid: c185772f1568c63419c67da82ca041db, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _Lightmap:
+        m_Texture: {fileID: 2800000, guid: d9df4f0a7dd267143b2ea93a1702ee48, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Lightmaps:
         m_Texture: {fileID: 2800000, guid: d9df4f0a7dd267143b2ea93a1702ee48, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
@@ -83,3 +91,4 @@ Material:
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _GlowTint: {r: 0.9895096, g: 1, b: 0.7028302, a: 1}
